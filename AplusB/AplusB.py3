@@ -16,6 +16,10 @@ class AplusB:
 
 
 def main():
+    '''
+    Adding main class
+    :return:
+    '''
     values = sys.stdin.read()
     tokens = values.split()
     a = int(tokens[0])
